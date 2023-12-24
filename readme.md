@@ -32,12 +32,12 @@ Link to raw data and cleaned data used for training: [here](https://drive.google
 
 ## About Training
 
-Process started with understanding the features using various data exaploratio techniques.
-Feature Engineering and model selection was done in 4 experiments where each experiment had a different combination of feature engineering, resampling, and feature selection techniques. This lead to a total of 6 unique models and 24 trained models.
+The process started with understanding the features and relationship with the target using various data exploration techniques.
+Feature Engineering and model selection was done in 4 experiments where each experiment has a different combination of feature engineering, resampling, and feature selection techniques. This led to a total of 6 unique algorithms and 24 trained models.
 
-After initial traning, the best two models were selected and ensembled for improved model performance.
+After initial training, the best two models were selected and ensembled for improved model performance.
 
-Hyperparamter tuning was done using Baysesian optimization to select the best tuning parameters.
+Hyperparameter tuning was done using Bayesian optimization to select the best tuning parameters.
 
 The best experiment preprocessing pipeline was selected to train the final model's preprocessor and the ensemble algorithm was then fitted to the preprocessed data.
 
